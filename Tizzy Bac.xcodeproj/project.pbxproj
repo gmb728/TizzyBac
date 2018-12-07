@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89B32DF50D03D5A89AECD550 /* Pods_Tizzy_Bac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 582F7A2239AE77212C9B68C7 /* Pods_Tizzy_Bac.framework */; };
 		DD404ADF21B8FAC500AFF585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD404ADE21B8FAC500AFF585 /* AppDelegate.swift */; };
 		DD404AE121B8FAC500AFF585 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD404AE021B8FAC500AFF585 /* ViewController.swift */; };
 		DD404AE421B8FAC500AFF585 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD404AE221B8FAC500AFF585 /* Main.storyboard */; };
 		DD404AE621B8FAC600AFF585 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD404AE521B8FAC600AFF585 /* Assets.xcassets */; };
 		DD404AE921B8FAC600AFF585 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD404AE721B8FAC600AFF585 /* LaunchScreen.storyboard */; };
+		DD404AF721BA0E7000AFF585 /* SongResutls.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD404AF621BA0E7000AFF585 /* SongResutls.swift */; };
+		DD404AF921BA0F9700AFF585 /* TizzyBacTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD404AF821BA0F9700AFF585 /* TizzyBacTableViewController.swift */; };
+		DD404AFD21BA125900AFF585 /* SongTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD404AFC21BA125900AFF585 /* SongTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DD404ADB21B8FAC500AFF585 /* MamaMia!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MamaMia!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		582F7A2239AE77212C9B68C7 /* Pods_Tizzy_Bac.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tizzy_Bac.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7356BE40690C62076110347A /* Pods-Tizzy Bac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tizzy Bac.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tizzy Bac/Pods-Tizzy Bac.release.xcconfig"; sourceTree = "<group>"; };
+		DD404ADB21B8FAC500AFF585 /* Tizzy Bac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tizzy Bac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD404ADE21B8FAC500AFF585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD404AE021B8FAC500AFF585 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DD404AE321B8FAC500AFF585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD404AE521B8FAC600AFF585 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD404AE821B8FAC600AFF585 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD404AEA21B8FAC600AFF585 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD404AF621BA0E7000AFF585 /* SongResutls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongResutls.swift; sourceTree = "<group>"; };
+		DD404AF821BA0F9700AFF585 /* TizzyBacTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TizzyBacTableViewController.swift; sourceTree = "<group>"; };
+		DD404AFC21BA125900AFF585 /* SongTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SongTableViewCell.swift; path = "/Users/changsophia/Documents/TizzyBac/Tizzy Bac/SongTableViewCell.swift"; sourceTree = "<absolute>"; };
+		E91C3A61B2A56CC5FE614DA6 /* Pods-Tizzy Bac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tizzy Bac.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tizzy Bac/Pods-Tizzy Bac.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,59 +39,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89B32DF50D03D5A89AECD550 /* Pods_Tizzy_Bac.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D36D37C61DBBBE36ED66317 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E91C3A61B2A56CC5FE614DA6 /* Pods-Tizzy Bac.debug.xcconfig */,
+				7356BE40690C62076110347A /* Pods-Tizzy Bac.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CB91B241400601A770560EDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				582F7A2239AE77212C9B68C7 /* Pods_Tizzy_Bac.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DD404AD221B8FAC500AFF585 = {
 			isa = PBXGroup;
 			children = (
-				DD404ADD21B8FAC500AFF585 /* MamaMia! */,
+				DD404ADD21B8FAC500AFF585 /* Tizzy Bac */,
 				DD404ADC21B8FAC500AFF585 /* Products */,
+				9D36D37C61DBBBE36ED66317 /* Pods */,
+				CB91B241400601A770560EDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		DD404ADC21B8FAC500AFF585 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DD404ADB21B8FAC500AFF585 /* MamaMia!.app */,
+				DD404ADB21B8FAC500AFF585 /* Tizzy Bac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DD404ADD21B8FAC500AFF585 /* MamaMia! */ = {
+		DD404ADD21B8FAC500AFF585 /* Tizzy Bac */ = {
 			isa = PBXGroup;
 			children = (
 				DD404ADE21B8FAC500AFF585 /* AppDelegate.swift */,
 				DD404AE021B8FAC500AFF585 /* ViewController.swift */,
 				DD404AE221B8FAC500AFF585 /* Main.storyboard */,
+				DD404AF821BA0F9700AFF585 /* TizzyBacTableViewController.swift */,
+				DD404AF621BA0E7000AFF585 /* SongResutls.swift */,
+				DD404AFC21BA125900AFF585 /* SongTableViewCell.swift */,
 				DD404AE521B8FAC600AFF585 /* Assets.xcassets */,
 				DD404AE721B8FAC600AFF585 /* LaunchScreen.storyboard */,
 				DD404AEA21B8FAC600AFF585 /* Info.plist */,
 			);
-			path = "MamaMia!";
+			path = "Tizzy Bac";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DD404ADA21B8FAC500AFF585 /* MamaMia! */ = {
+		DD404ADA21B8FAC500AFF585 /* Tizzy Bac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DD404AED21B8FAC600AFF585 /* Build configuration list for PBXNativeTarget "MamaMia!" */;
+			buildConfigurationList = DD404AED21B8FAC600AFF585 /* Build configuration list for PBXNativeTarget "Tizzy Bac" */;
 			buildPhases = (
+				15F370CECAC13C57B6D1A7D3 /* [CP] Check Pods Manifest.lock */,
 				DD404AD721B8FAC500AFF585 /* Sources */,
 				DD404AD821B8FAC500AFF585 /* Frameworks */,
 				DD404AD921B8FAC500AFF585 /* Resources */,
+				40A7C65934F938C92EEAE0FD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "MamaMia!";
+			name = "Tizzy Bac";
 			productName = "MamaMia!";
-			productReference = DD404ADB21B8FAC500AFF585 /* MamaMia!.app */;
+			productReference = DD404ADB21B8FAC500AFF585 /* Tizzy Bac.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +134,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DD404AD621B8FAC500AFF585 /* Build configuration list for PBXProject "MamaMia!" */;
+			buildConfigurationList = DD404AD621B8FAC500AFF585 /* Build configuration list for PBXProject "Tizzy Bac" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +147,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DD404ADA21B8FAC500AFF585 /* MamaMia! */,
+				DD404ADA21B8FAC500AFF585 /* Tizzy Bac */,
 			);
 		};
 /* End PBXProject section */
@@ -130,11 +165,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15F370CECAC13C57B6D1A7D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tizzy Bac-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40A7C65934F938C92EEAE0FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tizzy Bac/Pods-Tizzy Bac-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tizzy Bac/Pods-Tizzy Bac-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD404AD721B8FAC500AFF585 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD404AF721BA0E7000AFF585 /* SongResutls.swift in Sources */,
+				DD404AF921BA0F9700AFF585 /* TizzyBacTableViewController.swift in Sources */,
+				DD404AFD21BA125900AFF585 /* SongTableViewCell.swift in Sources */,
 				DD404AE121B8FAC500AFF585 /* ViewController.swift in Sources */,
 				DD404ADF21B8FAC500AFF585 /* AppDelegate.swift in Sources */,
 			);
@@ -280,16 +365,17 @@
 		};
 		DD404AEE21B8FAC600AFF585 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E91C3A61B2A56CC5FE614DA6 /* Pods-Tizzy Bac.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = "MamaMia!/Info.plist";
+				INFOPLIST_FILE = "Tizzy Bac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmb728.MamaMia-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmb728.Tizzy Bac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,16 +384,17 @@
 		};
 		DD404AEF21B8FAC600AFF585 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7356BE40690C62076110347A /* Pods-Tizzy Bac.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3M66U64HQ4;
-				INFOPLIST_FILE = "MamaMia!/Info.plist";
+				INFOPLIST_FILE = "Tizzy Bac/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gmb728.MamaMia-";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gmb728.Tizzy Bac";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +404,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DD404AD621B8FAC500AFF585 /* Build configuration list for PBXProject "MamaMia!" */ = {
+		DD404AD621B8FAC500AFF585 /* Build configuration list for PBXProject "Tizzy Bac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD404AEB21B8FAC600AFF585 /* Debug */,
@@ -326,7 +413,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DD404AED21B8FAC600AFF585 /* Build configuration list for PBXNativeTarget "MamaMia!" */ = {
+		DD404AED21B8FAC600AFF585 /* Build configuration list for PBXNativeTarget "Tizzy Bac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DD404AEE21B8FAC600AFF585 /* Debug */,
